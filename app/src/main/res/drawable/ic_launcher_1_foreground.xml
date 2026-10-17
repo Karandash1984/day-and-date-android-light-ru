@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer minimalist watch circle with two stacked horizontal pill cutout windows -->
+    <path
+        android:fillColor="#D3E3FD"
+        android:fillType="evenOdd"
+        android:pathData="M54,24A30,30 0,1 1,54 84A30,30 0,1 1,54 24Z M41,38L67,38A6,6 0,0 1,73 44L73,44A6,6 0,0 1,67 50L41,50A6,6 0,0 1,35 44L35,44A6,6 0,0 1,41 38Z M37,56L71,56A7,7 0,0 1,78 63L78,63A7,7 0,0 1,71 70L37,70A7,7 0,0 1,30 63L30,63A7,7 0,0 1,37 56Z" />
+    <!-- Subtle inner accent bars inside the apertures -->
+    <path
+        android:fillColor="#7CACF8"
+        android:pathData="M44,42.5L64,42.5A1.5,1.5 0,0 1,65.5 44A1.5,1.5 0,0 1,64 45.5L44,45.5A1.5,1.5 0,0 1,42.5 44A1.5,1.5 0,0 1,44 42.5Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,61.5L68,61.5A1.5,1.5 0,0 1,69.5 63A1.5,1.5 0,0 1,68 64.5L40,64.5A1.5,1.5 0,0 1,38.5 63A1.5,1.5 0,0 1,40 61.5Z" />
+</vector>

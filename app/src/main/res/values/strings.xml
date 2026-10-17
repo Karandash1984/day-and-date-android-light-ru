@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day &amp; Date</string>
+    <string name="notification_title">Day &amp; date icon</string>
+    <string name="channel_high_name">Forced High Priority Status Icon</string>
+    <string name="channel_high_desc">Keeps the 2-line Day &amp; Date icon pinned next to the status bar clock</string>
+    <string name="channel_silent_name">Forced Silent Priority Status Icon</string>
+    <string name="channel_silent_desc">Shows the 2-line Day &amp; Date icon in the silent section of the notification shade</string>
+    <string name="accessibility_service_label">Day &amp; Date Shade Detector</string>
+    <string name="accessibility_service_description">Detects when the SystemUI notification shade opens in Dynamic Priority mode to automatically demote or hide the Day &amp; Date notification card while viewing notifications.</string>
+</resources>
