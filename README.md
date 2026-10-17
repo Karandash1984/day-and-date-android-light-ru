@@ -1,8 +1,26 @@
-[README.md](https://github.com/user-attachments/files/33569960/README.md)
-# Day & Date (Android Status Bar Utility)
+# Day & Date — light RU
 
-> **⚠️ Notice — Provided "As-Is" (No Support or Maintenance):**
-> This code is shared purely as a reference for anyone who wants to inspect, modify, or build it for their own device. **I am not actively maintaining this project, providing technical support, fixing bugs, or accepting feature requests / pull requests.** Feel free to fork this repository and make any changes you like under the MIT License.
+Лёгкий Android-индикатор дня недели и числа в строке состояния.
+Форк Day & Date (Kotlin / Jetpack Compose), Android 12+.
 
-## Overview
-A lightweight native Android utility (Kotlin / Jetpack Compose) that renders a customizable 2-line Day & Date icon (`EEE` / `d`) in the status bar with adjustable typography, weight, and priority modes.
+- Короткий день недели всегда на русском: Пн, Вт, Ср, Чт, Пт, Сб, Вс.
+- Размеры и начертание зафиксированы на исходных значениях по умолчанию:
+  строки 46/46 px, базовые линии 40/83 px, масштаб по X 0.97, толщина 2.5.
+  Старые настройки размеров игнорируются.
+- Нажатие на уведомление всегда направлено в Google Календарь
+  (`com.google.android.calendar`); приложение должно быть установлено.
+- Только исходная иконка Watch Aperture, без переключателя и альтернативных ресурсов.
+- Сохранены включение индикатора, предпросмотр, тестовая дата и режимы приоритета.
+
+## Сборка и тесты
+
+Исходники находятся в `app/src` (распакованный исходный архив больше не используется).
+Нужны JDK 17 и Android SDK 35.
+
+```sh
+./gradlew :app:testDebugUnitTest :app:assembleDebug
+```
+
+APK: `app/build/outputs/apk/debug/app-debug.apk` (также копируется в `DayAndDate.apk`).
+
+Код предоставляется «как есть», без обязательств поддержки. Лицензия MIT — см. LICENSE.
